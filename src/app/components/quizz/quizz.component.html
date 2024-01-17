@@ -1,21 +1,30 @@
 <div class="quizz__container">
  <div class="quizz_logo">
    <img src="assets/imgs/logo.png" alt="logo da buzzfeed">
-   <h3>Titulo</h3>
+   <h3>{{titles}}</h3>
  </div>
 
  <div class="quizz_question">
-  <h3>questão selecionada </h3>
+  <h3>{{questionSelection.question}} </h3>
  </div>
 
  <div class="quizz_options">
-  <button class="btn-option">
-    optionnome
-  </button>
+  @for (option of questionSelection.options; track $index) {
+    <button
+       class="btn-option"
+       (click)="playChoose(option.alias)">
+
+    {{option.name}}
+    </button>
+  }
+
  </div>
 
- <div class="quizz_results">
-<h1>O seu Resultado é:</h1>
-<p>Resposta selecionada:</p>
- </div>
+@if (finished) {
+  <div  class="quizz_results">
+    <h1>O seu Resultado é:</h1>
+      <p>Resposta selecionada:</p>
+  </div>
+
+    }
 </div>
