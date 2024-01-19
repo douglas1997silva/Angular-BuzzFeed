@@ -3,11 +3,16 @@
    <img src="assets/imgs/logo.png" alt="logo da buzzfeed">
    <h3>{{titles}}</h3>
  </div>
+@if (!finished) {
 
- <div class="quizz_question">
+
+  <div  class="quizz_question">
   <h3>{{questionSelection.question}} </h3>
  </div>
 
+}
+
+@if (!finished){
  <div class="quizz_options">
   @for (option of questionSelection.options; track $index) {
     <button
@@ -19,11 +24,13 @@
   }
 
  </div>
-
-@if (finished) {
+}
+@if (finished ) {
   <div  class="quizz_results">
     <h1>O seu Resultado é:</h1>
-      <p>Resposta selecionada:</p>
+      <p>{{answersSelect}}</p>
+
+
   </div>
 
     }

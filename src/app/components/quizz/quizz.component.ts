@@ -22,6 +22,11 @@ export class QuizzComponent {
 
  finished:boolean = false;
 
+ imgVictori:string = 'assets/imgs/luffybando.jpeg';
+ imgErro:string = ''
+
+ poscetagem :number = 50;
+
  ngOnInit():void{
    if(quizz_questions){
     this.finished = false;
@@ -35,6 +40,7 @@ export class QuizzComponent {
  }
 
  playChoose(value:string){
+  this.nextStep();
   this.answers.push(value);
 
  }
@@ -45,7 +51,25 @@ export class QuizzComponent {
   if(this.questionMaxIndex > this.questionIndex){
    this.questionSelection = this.questions[this.questionIndex]
   }else{
+    const finalAnswers:string = await this.checkResults(this.answers)
   this.finished = true ;
+  this.answersSelect = quizz_questions.results[finalAnswers as keyof
+    typeof quizz_questions.results]
   }
+ }
+
+ async checkResults(answers:string[]){
+    const result = answers.reduce((previous, current,_i,arr) => {
+      if(
+        arr.filter(item => item === previous ).length >
+        arr.filter(item => item === current).length
+      ){
+       return previous;
+
+      }else{
+       return current ;
+      }
+    })
+    return result ;
  }
 }

@@ -1,55 +1,90 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Navegando Pelos Mares: Você Conhece Bem o Universo de 'One Piece'?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Quem é o capitão dos Piratas do Chapéu de Palha em 'One Piece' ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Zoro", "alias":"B"},
+        {"id": 2, "name":" Luffy", "alias":"A"},
+        {"id": 3, "name":"Nami", "alias":"B"},
+        {"id": 4, "name":"Usopp", "alias":"B"}
+
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual é o nome do navio dos Piratas do Chapéu de Palha?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Thousand Sunny", "alias":"A"},
+        {"id": 2, "name":"Red Force", "alias":"B"},
+        {"id": 3, "name":"Going Merry", "alias":"B"},
+        {"id": 4, "name":"Whitebeard", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Quem é o espadachim principal da tripulação dos Piratas do Chapéu de Palha?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Nami", "alias":"B"},
+        {"id": 2, "name":"Sanji", "alias":"B"},
+        {"id": 3, "name":" Zoro", "alias":"A"},
+        {"id": 4, "name":"Chopper", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual é o tipo de Fruta do Diabo que Luffy comeu?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Logia", "alias":"B"},
+        {"id": 2, "name":"Zoan", "alias":"B"},
+        {"id": 3, "name":"Paramecia", "alias":"A"},
+        {"id": 4, "name":"Mythical Zoan", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Em qual ilha Luffy adquiriu seus poderes de borracha?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Alabasta", "alias":"B"},
+        {"id": 2, "name":"Drum Island", "alias":"A"},
+        {"id": 3, "name":"Sabaody Archipelago", "alias":"B"},
+        {"id": 4, "name":"Loguetown", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Quem é o principal antagonista na saga de Water 7/Enies Lobby?",
+      "options":[
+        {"id": 1, "name":"Donquixote Doflamingo", "alias":"B"},
+        {"id": 2, "name":"Crocodile", "alias":"B"},
+        {"id": 3, "name":"Rob Lucci", "alias":"A"},
+        {"id": 4, "name":"Eneru", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual é a recompensa atual de Monkey D. Luffy?",
+      "options":[
+        {"id": 1, "name":"100 milhões de Berries", "alias":"B"},
+        {"id": 2, "name":"300 milhões de Berries", "alias":"B"},
+        {"id": 3, "name":"500 milhões de Berries", "alias":"B"},
+        {"id": 4, "name":"3 bilhão de Berries", "alias":"A"}
+      ]
+    },{
+      "id":8,
+      "question": "Qual é o nome da espada de Roronoa Zoro que é conhecida por sua maldição de três espadas?",
+      "options":[
+        {"id": 1, "name":"Sandai Kitetsu", "alias":"B"},
+        {"id": 2, "name":"Wado Ichimonji", "alias":"B"},
+        {"id": 3, "name":"Shusui", "alias":"A"},
+        {"id": 4, "name":"Enma", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "🎉 Parabéns, você é um verdadeiro mestre de 'One Piece'! 🎉 "
+    ,
+    "B": "😅 Não se preocupe, até o Rei dos Piratas teve seus dias ruins!"
   }
 }

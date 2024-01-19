@@ -4,9 +4,10 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  color: antiquewhite;
+  color: #2372a9;
 }
 
 body{
-  background-color: #1f1147;
+  background: url(assets/imgs/one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg) no-repeat center;
+  background-size: cover;
 }

@@ -4,7 +4,6 @@
   width: 80%;
   height: 500px;
 
-
 }
 
 .quizz_logo,
@@ -26,10 +25,14 @@
 .quizz_question{
   display: flex;
   align-items: center;
+
   flex-direction: column;
-  border:  1px solid #4224d9;
+  border:  1px solid #3652AD;
   border-radius: 8px;
-  background-color: #644ED2;
+  background:
+  url('../../../assets/imgs/one-piece-1920x1080-anime-one-piece-hd-art-wallpaper-preview.jpg')
+  center;
+  color: black;
   width: 100%;
   height: 200px;
   font-size: 20px;
@@ -39,28 +42,31 @@
 
 .quizz_options{
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin-left: 90px;
+
 }
 
 .btn-option{
    background-color: transparent;
    border-radius: 8px;
-   border: 1px solid #18ab29;
+   border: 1px solid #001B79;
    width: 50%;
    display: inline-block;
+
    cursor: pointer;
    color: #FFFFFF;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 17px;
    padding:  16px 31px;
    text-decoration: none;
-   text-shadow: 0px 2px 0px #2f6627;
+   text-shadow: 0px 1px 0px #FF6C22;
 }
 
 .btn-option:hover{
-  background-color: #5cbf2a;
+  background-color: #FF9209;
 }
 .btn-option:active {
   position: relative;
@@ -77,4 +83,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.quizz_results >p{
+ font-size:  25px;
 }
