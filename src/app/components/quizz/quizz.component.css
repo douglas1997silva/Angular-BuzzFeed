@@ -87,3 +87,41 @@
 .quizz_results >p{
  font-size:  25px;
 }
+
+
+@media  (min-width:350px) and (max-width:800px) {
+  .quizz__container{
+    width: 100%;
+    height: 100dvb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quizz_logo >img{
+    width: 300px;
+  }
+  .quizz_logo >h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .quizz_question{
+
+    max-width: 330px;
+    height: 270px;
+    text-align: center;
+  }
+  .quizz_options {
+
+  margin-left: 40px;
+
+
+  }
+  .btn-option{
+    width: auto;
+  }
+  .quizz_results{
+    text-align: center;
+
+  }
+}
